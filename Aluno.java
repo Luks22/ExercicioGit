@@ -2,6 +2,11 @@ public class Aluno{
     private int id;
     private String nome;
 
+    public Aluno(int id, String nome){
+      this.nome = nome;
+      this.id = id;
+    }
+
     public int getId(){
         return this.id;
     }
@@ -9,10 +14,10 @@ public class Aluno{
     public String getNome(){
         return this.nome;
     }
-    public void int setId(int id){
+    public void setId(int id){
       this.id = id;
     }
-    public void String setNome(string nome){
+    public void setNome(string nome){
       this.nome = nome;
     }
 }
