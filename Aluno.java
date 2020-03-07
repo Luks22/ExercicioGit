@@ -3,7 +3,7 @@ public class Aluno{
     private String nome;
 
     public Aluno(int id, String nome){
-      setNome(nome);
+      setNome(name);
       setId(id);
     }
 
