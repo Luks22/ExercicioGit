@@ -2,9 +2,11 @@ public class Aluno{
     private int id;
     private String nome;
 
-    public Aluno(int id, String nome){
-      this.nome = nome;
-      this.id = id;
+    public Aluno(int id, String name){
+
+      setNome(name);
+      setId(id);
+      
     }
 
     public int getId(){
