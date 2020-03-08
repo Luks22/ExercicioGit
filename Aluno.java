@@ -17,7 +17,7 @@ public class Aluno{
     public void setId(int id){
       this.id = id;
     }
-    public void setNome(string nome){
+    public void setNome(String nome){
       this.nome = nome;
     }
 }
