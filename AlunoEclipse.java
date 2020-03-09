@@ -24,5 +24,5 @@ public class AlunoEclipse {
 	    public void setNome(String nome){
 	      this.nome = nome;
 	    }
-	}
+}
 
