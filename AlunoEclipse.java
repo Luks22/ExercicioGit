@@ -3,6 +3,13 @@ public class AlunoEclipse {
 	private int id;
 	private String nome;
 	
+	
+	public AlunoEclipse(String nome,int id) {
+	   this.nome = nome;
+	   this.id = id;
+		
+	}
+	
 	public int getId() {
 		return id;
 	}
