@@ -5,8 +5,8 @@ public class AlunoEclipse {
 	
 	
 	public AlunoEclipse(String nome,int id) {
-	   this.nome = nome;
-	   this.id = id;
+	   setNome(nome);
+	   setId(id);
 		
 	}
 	
